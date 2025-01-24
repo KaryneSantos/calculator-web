@@ -1,4 +1,4 @@
-#Calculadora Padrão e Científica  🧮
+##Calculadora Padrão e Científica  🧮
 
 Uma aplicação web desenvolvida para realizar cálculos básicos e científicos, implementada com HTML, CSS e Javascript.
 
