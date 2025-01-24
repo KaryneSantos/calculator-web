@@ -91,7 +91,7 @@ function calcular() {
             resultado = parseFloat(primeiroNumero) / parseFloat(segundoNumero);
             break;
         case '%':
-            resultado = parseFloat(primeiroNumero) % parseFloat(segundoNumero);
+            resultado = parseFloat(primeiroNumero) - (parseFloat(primeiroNumero) * (parseFloat(segundoNumero) / 100));
             break;
         case '+/-':
             resultado = -parseFloat(primeiroNumero);
