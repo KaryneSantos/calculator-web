@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com JS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Padrão</h1>
+
+        <div class="opc">
+            <button id="calculadora_padrao">PADRÃO</button>
+            <button id="calculadora_cientifica">CIENTÍFICA</button>
+        </div>
+
+        <div class="calculadora">
+            <input type="text" id="display" placeholder="0">
+
+            <div class="elementos">
+                <div class="coluna">
+                <button class="numero">7</button>
+                <button class="numero">8</button>
+                <button class="numero">9</button>
+                <button class="operador">/</button>
+            </div>
+            <div class="coluna">
+                <button class="numero">6</button>
+                <button class="numero">5</button>
+                <button class="numero">4</button>
+                <button class="operador">*</button>
+            </div>
+            <div class="coluna">
+                <button class="numero">3</button>
+                <button class="numero">2</button>
+                <button class="numero">1</button>
+                <button class="operador">-</button>
+            </div>
+            <div class="coluna">
+                <button class="operador">+/-</button>
+                <button class="numero">0</button>
+                <button class="operador" id="ponto">.</button>
+                <button class="operador">+</button>
+            </div>
+            <div class="coluna">
+                <button class="operador">%</button>
+                <button class="operador" id="limparUltimo">CE</button>
+                <button class="operador" id="limpar">C</button>
+                <button class="operador" id="igual">=</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Rayanne Santos</p>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/padrao.js"></script>
+</body>
+</html>
